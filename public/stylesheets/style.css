@@ -4,7 +4,6 @@ html, body{
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Istok Web', sans-serif;
 }
-
 .primary{
 	color:#103643 !important;
 }
@@ -203,4 +202,11 @@ input[type="password"]:focus{
 }
 .alert-danger .alert-link {
   color: #843534;
+}
+/* NAVBAR */
+#navbar {
+
+}
+#navbar .nav{
+  
 }
