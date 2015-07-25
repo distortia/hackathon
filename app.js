@@ -4,10 +4,11 @@
 // get all the tools we need
 var express  = require('express');
 var app      = express();
-var port     = process.env.PORT || 8080;
+var port     = process.env.PORT || 3000;
 var mongoose = require('mongoose');
 var passport = require('passport');
 var flash    = require('connect-flash');
+var path     = require('path');
 
 var morgan       = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -28,6 +29,7 @@ app.use(bodyParser.json()); // get information from html forms
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set('view engine', 'ejs'); // set up ejs for templating
+app.use(express.static(path.join(__dirname, 'public'))); // include public folder
 
 // required for passport
 app.use(session({ secret: 'ihatedarrell' })); // session secret
