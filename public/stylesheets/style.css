@@ -1,8 +1,11 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	padding: 50px;
+  	font-family: 'Lora', serif;
+}
+h1,h2, h3, h4, h5, h6{
+	font-family: 'Istok Web', sans-serif;
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
 }

@@ -8,8 +8,9 @@ var mongo = require('mongo');
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
 var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
-var passport-oauth = require('passport-oauth');
+var FacebookStrategy = require('passport-facebook').Strategy;
+var TwitterStrategy  = require('passport-twitter').Strategy;
+var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
