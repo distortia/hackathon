@@ -6,7 +6,7 @@ module.exports = {
     'facebookAuth' : {
         'clientID'        : '482269761938030', // your App ID
         'clientSecret'    : '0adf178731e2f777bc95789472a861d3', // your App Secret
-        'callbackURL'     : 'http://bluegatr/auth/facebook/callback'
+        'callbackURL'     : 'http://bluegatr.com/auth/facebook/callback'
     },
 
     'twitterAuth' : {
