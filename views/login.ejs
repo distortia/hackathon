@@ -1,0 +1,60 @@
+<% include header %>
+    <div class="container">
+        <div class="row">
+
+            <div class="two columns  social-media">
+                <a href="/auth/facebook" class="button button-facebook"><span class="fa fa-facebook"></span> Facebook</a>
+                <a href="/auth/twitter" class="button button-twitter"><span class="fa fa-twitter"></span> Twitter</a>
+                <a href="/auth/google" class="button button-google"><span class="fa fa-google-plus"></span> Google+</a>
+            </div>
+            <div class="five columns">
+
+                <h1><span class="fa center-align"></span> Login</h1>
+
+                <% if (message.length > 0) { %>
+                    <div class="alert alert-danger"><%= message %></div>
+                <% } %>
+
+                <!-- LOGIN FORM -->
+                <div class="verticalLine">
+                    <form action="/login" method="post">
+<!--                         <label>Email</label> -->
+                            <input type="text" class="form-control u-full-width" placeholder="Email" name="email">
+                        <!-- <label>Password</label> -->
+                            <input type="password" class="form-control u-full-width" placeholder="Password" name="password" id="loginPassword">
+                        <label>
+                            <input type="checkbox" id="loginCheckbox">
+                            <span class="label-body">Show/Hide Password</span>
+                        </label>
+                        <button type="submit" class="button-primary u-full-width">Login</button>
+                    </form>
+                </div>
+
+                <!-- <p>Need an account? <a href="/signup"><button button-primary>Signup</button></a></p> -->
+            </div>
+
+            <div class="button-float-left five columns">
+                    <!-- <button onclick="location.href = '/signup';" class="button-primary u-full-width">Signup</button> -->
+                <h1><span class="fa center-align"></span> Signup</h1>
+
+                <% if (message.length > 0) { %>
+                    <div class="alert alert-danger"><%= message %></div>
+                <% } %>
+
+                <form action="/signup" method="post">
+
+                    <input type="text" class="form-control u-full-width" placeholder="Email" name="email">
+                    <input type="password" class="form-control u-full-width" placeholder="Password" name="password" id="signupPassword">
+
+                    <label>
+                        <input type="checkbox" id="signupCheckbox">
+                        <span class="label-body">Show/Hide Password</span>
+                    </label>
+
+                    <button type="submit" class="button-primary u-full-width">Signup</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+<% include footer %>
