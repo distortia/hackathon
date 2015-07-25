@@ -4,21 +4,21 @@
 module.exports = {
 
     'facebookAuth' : {
-        'clientID'        : 'your-secret-clientID-here', // your App ID
-        'clientSecret'    : 'your-client-secret-here', // your App Secret
-        'callbackURL'     : 'http://localhost:8080/auth/facebook/callback'
+        'clientID'        : '482269761938030', // your App ID
+        'clientSecret'    : '0adf178731e2f777bc95789472a861d3', // your App Secret
+        'callbackURL'     : 'http://bluegatr/auth/facebook/callback'
     },
 
     'twitterAuth' : {
-        'consumerKey'        : 'your-consumer-key-here',
-        'consumerSecret'     : 'your-client-secret-here',
-        'callbackURL'        : 'http://localhost:8080/auth/twitter/callback'
+        'consumerKey'        : 'tyeRKBkQx6HaBRUIszyXLzot2',
+        'consumerSecret'     : 'eDPbXjCq35hIpLOoHZvYvqxtsnFoQANBaDNc4R5TxHmxymhWRw',
+        'callbackURL'        : 'http://bluegatr.com/auth/twitter/callback'
     },
 
     'googleAuth' : {
-        'clientID'         : 'your-secret-clientID-here',
-        'clientSecret'     : 'your-client-secret-here',
-        'callbackURL'      : 'http://localhost:8080/auth/google/callback'
+        'clientID'         : '262463806866-tj62qon2no4a8ui65tok34ajcfrk02d3.apps.googleusercontent.com',
+        'clientSecret'     : 'eQHZLwX2fUFoUxHZWvLR_G-R',
+        'callbackURL'      : 'http://bluegatr.com/auth/google/callback'
     }
 
 };
