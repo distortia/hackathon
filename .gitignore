@@ -28,6 +28,9 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+<<<<<<< HEAD
 
 #sftp-config
 sftp-config.json
+=======
+>>>>>>> 0fab5a577e155dc911f31fba2f0b73814f212753
